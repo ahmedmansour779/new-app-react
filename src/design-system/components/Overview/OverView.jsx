@@ -1,14 +1,17 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from 'react';
+import { Description, OverviewWrapper, Title } from "./Sryles";
 
 export default function OverView({ icon, title, children }) {
     return (
         <>
-            <div>
-                <FontAwesomeIcon icon={icon} />
-            </div>
-            <h2>{title}</h2>
-            <p>{children}</p>
+            <OverviewWrapper>
+                <div>
+                    <FontAwesomeIcon size="2xl" color="#f2545f" icon={icon} />
+                </div>
+                <Title>{title}</Title>
+                <Description>{children}</Description>
+            </OverviewWrapper>
         </>
     )
 }
