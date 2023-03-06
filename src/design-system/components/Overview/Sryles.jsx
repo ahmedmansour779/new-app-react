@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-var widthAll = window.innerWidth;
 
 export const OverviewWrapper = styled("div")`
     label: OverviewWrapper;
