@@ -1,17 +1,24 @@
-import { faUserGroup } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
+import "./app.css";
 import Overview from "./design-system/components/Overview";
-
+import overviewData from "./design-system/components/Overview/Data";
+import { UpOverviewWrapper } from "./design-system/components/Overview/Sryles";
 
 function App() {
   return (
-    <div>
-      <Overview icon={faUserGroup} title={"650 participants"}>
-        {`"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quis qui 
-        alias incidunt excepturi amet quisquam odit laboriosam doloribus veritatis. Dolorem ut 
-        optio vero architecto magnam delectus odit laudantium autem."`}
-      </Overview>
-    </div>
+    <>
+      <UpOverviewWrapper>
+        {overviewData.map(item => {
+          return (
+            <Overview
+              icon={item.icon}
+              title={item.title}
+              describtion={item.description}
+              key={item.id} />
+          )
+        })}
+      </UpOverviewWrapper>
+    </>
   );
 }
 
