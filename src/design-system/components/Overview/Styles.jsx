@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import theme from "../config";
 
 export const OverviewWrapper = styled("div")`
     label: OverviewWrapper;
@@ -13,7 +14,7 @@ export const UpOverviewWrapper = styled("div")`
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background-color: #292626;
+    background-color: ${theme.background};
     padding-top: 20px;
     padding-bottom: 20px;
     align-items: center;
@@ -22,10 +23,10 @@ export const UpOverviewWrapper = styled("div")`
 `;
 export const Title = styled("h2")`
     label: Title;
-    color: #d4d4d4;
+    color: ${theme.textBackground};
     margin: 15px
 `;
 export const Description = styled("p")`
     label: Description;
-    color: #d4d4d4da;
+    color: ${theme.textBackground};
 `;

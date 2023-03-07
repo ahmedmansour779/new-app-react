@@ -1,9 +1,11 @@
 import styled from "@emotion/styled";
+import theme from "../config";
 
 export const SpeakersWrapper = styled("div")`
     label: SpeakersWrapper;
     width: 250px ;
     text-align: center;
+    color: ${theme.gray};
 `;
 export const HeaderSpeakersWrapper = styled("div")`
     label: HeaderSpeakersWrapper;
@@ -29,10 +31,10 @@ export const UpSpeakersWrapper = styled("div")`
 `;
 export const TitleSpeakersWrapper = styled("h2")`
     label: Title;
-    color: #f2545f;
+    color: ${theme.primary};
     margin: 15px
 `;
 export const DescriptionSpeakersWrapper = styled("p")`
     label: Description;
-    color: #292626;
+    color: ${theme.secondry};
 `;
