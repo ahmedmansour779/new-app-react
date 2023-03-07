@@ -4,13 +4,13 @@ export const OverviewWrapper = styled("div")`
     label: OverviewWrapper;
     width: 200px;
     text-align: center;
-    
+    margin-bottom: 15px;
 `;
 export const UpOverviewWrapper = styled("div")`
     label: UpOverviewWrapper;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     background-color: #292626;
@@ -27,5 +27,5 @@ export const Title = styled("h2")`
 `;
 export const Description = styled("p")`
     label: Description;
-    color: #707070;
+    color: #d4d4d4da;
 `;

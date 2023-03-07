@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from 'react';
-import { Description, OverviewWrapper, Title } from "./Sryles";
+import { Description, OverviewWrapper, Title } from "./Styles";
 
 export default function OverView({ icon, title, describtion }) {
     return (
