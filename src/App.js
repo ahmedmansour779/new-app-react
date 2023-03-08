@@ -5,9 +5,12 @@ import { DescriptionSpeakersWrapper, HeaderSpeakersWrapper, TitleSpeakersWrapper
 import "./design-system/components/main.css";
 import OurPrograms from "./design-system/components/ourPrograms/OurPrograms";
 import OurProgramData from "./design-system/components/ourPrograms/OurProgramsData";
+import Oursponsours from "./design-system/components/OurSponsours/Oursponsours";
+import ourSponsorsData from "./design-system/components/OurSponsours/OurSponsoursData";
 import Overview from "./design-system/components/Overview";
 import overviewData from "./design-system/components/Overview/OverviewData";
 import { UpOverviewWrapper } from "./design-system/components/Overview/Styles";
+import Home from "./design-system/components/pages/Home/Home";
 
 function App() {
   return (
@@ -59,6 +62,18 @@ function App() {
               key={item.id} />
           )
         })}
+      </>
+      <>
+        <div style={{ display: "flex", gap: "1rem" }}>
+          {ourSponsorsData.map(item => {
+            return (
+              <Oursponsours src={item.src} alt={item.alt} key={item.id} />
+            )
+          })}
+        </div>
+      </>
+      <>
+        <Home />
       </>
     </>
   );

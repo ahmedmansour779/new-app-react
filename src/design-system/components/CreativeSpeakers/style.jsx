@@ -20,6 +20,7 @@ export const HeaderSpeakersWrapper = styled("div")`
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
+    gap: 1rem;
 `;
 export const UpSpeakersWrapper = styled("div")`
     label: UpSpeakersWrapper;

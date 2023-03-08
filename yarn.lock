@@ -6904,6 +6904,13 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
 
+link-module-alias@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/link-module-alias/-/link-module-alias-1.2.0.tgz#6a3b7b014cfe18b2759a1222fffce6a40fc120e4"
+  integrity sha512-ahPjXepbSVKbahTB6LxR//VHm8HPfI+QQygCH+E82spBY4HR5VPJTvlhKBc9F7muVxnS6C1rRfoPOXAbWO/fyw==
+  dependencies:
+    chalk "^2.4.1"
+
 loader-runner@^4.2.0:
   version "4.3.0"
   resolved "https://registry.npmjs.org/loader-runner/-/loader-runner-4.3.0.tgz"

@@ -6,6 +6,11 @@
     border: 0;
     box-sizing: border-box;
     margin: 0;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
 }
 
 body {
@@ -13,4 +18,13 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Golos Text', sans-serif;
+}
+
+.container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+a:hover {
+    color: #f2545f;
 }

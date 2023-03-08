@@ -2,7 +2,7 @@ import { faClock } from '@fortawesome/free-regular-svg-icons'
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
-import { IconWrapper, Image, ImageWrapper, OurProgramsWrapper } from './style'
+import { IconWrapper, Image, ImageWrapper, OurProgramsWrapper, OurProgramsWrapperup } from './style'
 
 export default function OurPrograms({
     imag,
@@ -17,7 +17,7 @@ export default function OurPrograms({
             <ImageWrapper>
                 <Image src={imag} alt={alt} />
             </ImageWrapper>
-            <div>
+            <OurProgramsWrapperup>
                 <IconWrapper>
                     <div>
                         <FontAwesomeIcon
@@ -33,7 +33,7 @@ export default function OurPrograms({
                 <h2>{title}</h2>
                 <span>{name}</span>
                 <p>{description}</p>
-            </div>
+            </OurProgramsWrapperup>
         </OurProgramsWrapper>
     )
 }

@@ -10,6 +10,7 @@ export const OverviewWrapper = styled("div")`
 export const UpOverviewWrapper = styled("div")`
     label: UpOverviewWrapper;
     display: flex;
+    gap: 2rem;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
