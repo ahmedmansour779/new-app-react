@@ -1,7 +1,13 @@
 import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import CreativeSpeakers from "./design-system/components/CreativeSpeakers/CreativeSpeakers";
 import speakerData from "./design-system/components/CreativeSpeakers/SpeakersData";
-import { DescriptionSpeakersWrapper, HeaderSpeakersWrapper, TitleSpeakersWrapper, UpSpeakersWrapper } from "./design-system/components/CreativeSpeakers/style";
+import {
+  DescriptionSpeakersWrapper,
+  HeaderSpeakersWrapper,
+  TitleSpeakersWrapper,
+  UpSpeakersWrapper
+} from "./design-system/components/CreativeSpeakers/style";
 import "./design-system/components/main.css";
 import OurPrograms from "./design-system/components/ourPrograms/OurPrograms";
 import OurProgramData from "./design-system/components/ourPrograms/OurProgramsData";
@@ -73,7 +79,11 @@ function App() {
         </div>
       </>
       <>
-        <Home />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </BrowserRouter>
       </>
     </>
   );

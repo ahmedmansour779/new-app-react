@@ -1,11 +1,10 @@
 import React from 'react'
-import theme from '../../../../config'
 import { Link } from './style'
 
-function NavLinkes({ navLink, navText, active }) {
+function NavLinkes({ navLink, navText, color }) {
     return (
         <>
-            <Link color={active ? theme.primary : ""} href={navLink}>{navText}</Link>
+            <Link style={{ color: color }} href={navLink}>{navText}</Link>
         </>
     )
 }

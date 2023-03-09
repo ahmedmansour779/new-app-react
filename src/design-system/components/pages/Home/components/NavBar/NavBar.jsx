@@ -1,6 +1,5 @@
 import React from 'react';
-import links from './Linkes';
-import NavLinkes from './NavLinkes';
+import NavItems from './NavItems';
 import { Event, LinkWrapper, NavbarContainer, NavbarTitle, NavbarWrapper } from './style';
 
 function NavBar() {
@@ -14,16 +13,7 @@ function NavBar() {
                         </NavbarTitle>
                     </div>
                     <LinkWrapper>
-                        {links.map((link, index) => {
-                            return (
-                                <NavLinkes
-                                    active={link.active}
-                                    navLink={link.navLink}
-                                    navText={link.navText}
-                                    key={index}
-                                />
-                            )
-                        })}
+                        <NavItems />
                     </LinkWrapper>
                 </NavbarContainer>
             </div>

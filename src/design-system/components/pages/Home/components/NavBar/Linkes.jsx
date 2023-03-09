@@ -1,37 +1,37 @@
-const links = [
-    {
-        navLink: "/",
-        navText: "Intro",
-        active: true,
-    },
-    {
-        navLink: "/",
-        navText: "OverView",
-    },
-    {
-        navLink: "/",
-        navText: "Speakers",
-    },
-    {
-        navLink: "/",
-        navText: "Programs",
-    },
-    {
-        navLink: "/",
-        navText: "Register",
-    },
-    {
-        navLink: "/",
-        navText: "venue",
-    },
-    {
-        navLink: "/",
-        navText: "sponsers",
-    },
-    {
-        navLink: "/",
-        navText: "contact",
-    },
-]
-
-export default links;
+export default function links() {
+    return [
+        {
+            navLink: "/",
+            navText: "Intro",
+            active: true,
+        },
+        {
+            navLink: "/overView",
+            navText: "OverView",
+        },
+        {
+            navLink: "/speakers",
+            navText: "Speakers",
+        },
+        {
+            navLink: "/programs",
+            navText: "Programs",
+        },
+        {
+            navLink: "/register",
+            navText: "Register",
+        },
+        {
+            navLink: "/venue",
+            navText: "Venue",
+        },
+        {
+            navLink: "/sponsers",
+            navText: "Sponsers",
+        },
+        {
+            navLink: "/contact",
+            navText: "Contact",
+        },
+    ]
+}
