@@ -5,7 +5,10 @@ export const NavbarWrapper = styled("section")`
     label: NavbarWrapper;
     background-color: ${theme.background};
     color: ${theme.textBackground};
-    padding: 1rem;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
 `
 export const NavbarContainer = styled("section")`
     label: NavbarContainer;
