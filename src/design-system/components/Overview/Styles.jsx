@@ -13,7 +13,7 @@ export const UpOverviewWrapper = styled("div")`
     gap: 2rem;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: ${theme.background};
     padding-top: 20px;

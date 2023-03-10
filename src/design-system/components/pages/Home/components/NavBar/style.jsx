@@ -3,7 +3,7 @@ import theme from "../../../../config";
 
 export const NavbarWrapper = styled("section")`
     label: NavbarWrapper;
-    background-color: ${theme.background};
+    background-color: ${theme.secondry};
     color: ${theme.textBackground};
     padding: 1rem 0;
     position: fixed;

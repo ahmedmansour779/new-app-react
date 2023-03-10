@@ -21,8 +21,7 @@ body {
 }
 
 .container {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin: 0 3rem;
 }
 
 a:hover {

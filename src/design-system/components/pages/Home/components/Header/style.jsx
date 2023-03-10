@@ -1,13 +1,15 @@
 import styled from "@emotion/styled";
-import backGround from "images/header/background.webp";
+import backGround from "images/Home/background.webp";
 import theme from "../../../../config";
-const height = window.innerHeight
+const height = window.innerHeight;
 
 export const HeaderWrapper = styled("div")`
     label: HeaderWrapper;
     height: ${height}px;
+    width: 100%;
     background:url(${backGround});
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     padding: 10% 0;
     text-align: center;

@@ -13,26 +13,17 @@ import OurPrograms from "./design-system/components/ourPrograms/OurPrograms";
 import OurProgramData from "./design-system/components/ourPrograms/OurProgramsData";
 import Oursponsours from "./design-system/components/OurSponsours/Oursponsours";
 import ourSponsorsData from "./design-system/components/OurSponsours/OurSponsoursData";
-import Overview from "./design-system/components/Overview";
-import overviewData from "./design-system/components/Overview/OverviewData";
-import { UpOverviewWrapper } from "./design-system/components/Overview/Styles";
 import Home from "./design-system/components/pages/Home/Home";
 
 function App() {
   return (
     <>
       <>
-        <UpOverviewWrapper>
-          {overviewData.map(item => {
-            return (
-              <Overview
-                icon={item.icon}
-                title={item.title}
-                describtion={item.description}
-                key={item.id} />
-            )
-          })}
-        </UpOverviewWrapper>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </BrowserRouter>
       </>
       <>
         <HeaderSpeakersWrapper>
@@ -77,13 +68,6 @@ function App() {
             )
           })}
         </div>
-      </>
-      <>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Home />} />
-          </Routes>
-        </BrowserRouter>
       </>
     </>
   );
