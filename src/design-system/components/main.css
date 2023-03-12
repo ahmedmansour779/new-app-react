@@ -20,6 +20,10 @@ body {
     font-family: 'Golos Text', sans-serif;
 }
 
+::selection {
+    background-color: #f2545f;
+}
+
 .container {
     margin: 0 3rem;
 }

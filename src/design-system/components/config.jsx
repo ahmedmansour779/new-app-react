@@ -3,6 +3,7 @@ const theme = {
     secondry: "#090707",
     gray: "#464646",
     background: "#292626",
-    textBackground: "#d4d4d4"
+    textBackground: "#d4d4d4",
+    white: "#fff"
 }
 export default theme;

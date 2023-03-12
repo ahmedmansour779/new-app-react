@@ -1,13 +1,5 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import CreativeSpeakers from "./design-system/components/CreativeSpeakers/CreativeSpeakers";
-import speakerData from "./design-system/components/CreativeSpeakers/SpeakersData";
-import {
-  DescriptionSpeakersWrapper,
-  HeaderSpeakersWrapper,
-  TitleSpeakersWrapper,
-  UpSpeakersWrapper
-} from "./design-system/components/CreativeSpeakers/style";
 import "./design-system/components/main.css";
 import OurPrograms from "./design-system/components/ourPrograms/OurPrograms";
 import OurProgramData from "./design-system/components/ourPrograms/OurProgramsData";
@@ -26,11 +18,7 @@ function App() {
         </BrowserRouter>
       </>
       <>
-        <HeaderSpeakersWrapper>
-          <TitleSpeakersWrapper><span style={{ color: "#292626" }}>Creative</span> Speakers</TitleSpeakersWrapper>
-          <DescriptionSpeakersWrapper>These are the most important figures in the company</DescriptionSpeakersWrapper>
-        </HeaderSpeakersWrapper>
-        <UpSpeakersWrapper>
+        {/* <UpSpeakersWrapper>
           {(
             speakerData.map(item => {
               return (
@@ -43,7 +31,7 @@ function App() {
               )
             })
           )}
-        </UpSpeakersWrapper>
+        </UpSpeakersWrapper> */}
       </>
       <>
         {OurProgramData.map(item => {

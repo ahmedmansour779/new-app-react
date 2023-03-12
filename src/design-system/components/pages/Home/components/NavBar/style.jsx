@@ -9,6 +9,7 @@ export const NavbarWrapper = styled("section")`
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 5;
 `
 export const NavbarContainer = styled("section")`
     label: NavbarContainer;
