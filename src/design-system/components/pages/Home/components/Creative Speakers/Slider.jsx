@@ -1,5 +1,7 @@
 import { Autoplay, Navigation, Pagination } from "swiper";
 import 'swiper/css';
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import CreativeSpeakers from "../../../../CreativeSpeakers/CreativeSpeakers";
 import speakerData from "../../../../CreativeSpeakers/SpeakersData";
@@ -16,7 +18,30 @@ export default function Slider() {
                         delay: 2500,
                         disableOnInteraction: false,
                     }}
-                    modules={[Autoplay, Pagination, Navigation]} >
+                    cardsEffect={{ slideShadows: true }}
+                    allowSlideNext={true}
+                    loop={true}
+                    navigation={true}
+                    breakpoints={{
+                        320: {
+                            slidesPerView: 1,
+                            spaceBetween: 10,
+                        },
+                        480: {
+                            slidesPerView: 1,
+                            spaceBetween: 10,
+                        },
+                        768: {
+                            slidesPerView: 2,
+                            spaceBetween: 10,
+                        },
+                        1200: {
+                            slidesPerView: 4,
+                            spaceBetween: 10,
+                        },
+                    }}
+                    modules={[Autoplay, Pagination, Navigation]}
+                    className="mySwiper" >
                     {(
                         speakerData.map(item => {
                             return (

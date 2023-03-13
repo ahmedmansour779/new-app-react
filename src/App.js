@@ -18,22 +18,6 @@ function App() {
         </BrowserRouter>
       </>
       <>
-        {/* <UpSpeakersWrapper>
-          {(
-            speakerData.map(item => {
-              return (
-                <CreativeSpeakers
-                  imag={item.imag}
-                  name={item.name}
-                  job={item.jop}
-                  alt={item.alt}
-                  key={item.id} />
-              )
-            })
-          )}
-        </UpSpeakersWrapper> */}
-      </>
-      <>
         {OurProgramData.map(item => {
           return (
             <OurPrograms
