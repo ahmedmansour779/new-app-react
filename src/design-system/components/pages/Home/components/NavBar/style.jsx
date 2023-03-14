@@ -42,3 +42,9 @@ export const LinkWrapper = styled("div")`
     flex-wrap: wrap;
     flex-direction: row;
 `
+export const Button = styled("button")`
+    label: Button;
+    font-size: 3rem;
+    color: ${theme.primary};
+    background: none;
+`
