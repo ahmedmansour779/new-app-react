@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { IconWrapper, Image, ImageWrapper, OurProgramsWrapper, OurProgramsWrapperup } from './style'
 
-export default function OurPrograms({
+export default function OurProgramsComponent({
     imag,
     alt,
     time,
@@ -30,8 +30,8 @@ export default function OurPrograms({
                             icon={faMapMarkerAlt} /> {roomNumper}
                     </div>
                 </IconWrapper>
-                <h2>{title}</h2>
-                <span>{name}</span>
+                <h2>{name}</h2>
+                <span>{title}</span>
                 <p>{description}</p>
             </OurProgramsWrapperup>
         </OurProgramsWrapper>

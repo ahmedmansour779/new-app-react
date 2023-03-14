@@ -4,8 +4,8 @@ import { Event, LinkWrapper, NavbarContainer, NavbarTitle, NavbarWrapper } from 
 
 function NavBar() {
     return (
-        <NavbarWrapper>
-            <div className='container'>
+        <NavbarWrapper className='nav-bar' id='NavBar'>
+            <div className='container-main-project'>
                 <NavbarContainer>
                     <div>
                         <NavbarTitle>

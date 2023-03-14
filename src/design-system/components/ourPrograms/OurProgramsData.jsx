@@ -1,16 +1,16 @@
-import firstDay1 from "../../shared/assats/ourPrograms/firstday1.webp"
-import firstDay2 from "../../shared/assats/ourPrograms/firstday2.webp"
-import firstDay3 from "../../shared/assats/ourPrograms/firstday3.webp"
-import secondDay1 from "../../shared/assats/ourPrograms/secondday1.webp"
-import secondDay2 from "../../shared/assats/ourPrograms/secondday2.webp"
-import secondDay3 from "../../shared/assats/ourPrograms/secondday3.webp"
-import thirdDay1 from "../../shared/assats/ourPrograms/thirstday1.webp"
-import thirdDay2 from "../../shared/assats/ourPrograms/thirstday2.webp"
-import thirdDay3 from "../../shared/assats/ourPrograms/thirstday3.webp"
+import firstDay1 from "images/ourPrograms/firstday1.webp"
+import firstDay2 from "images/ourPrograms/firstday2.webp"
+import firstDay3 from "images/ourPrograms/firstday3.webp"
+import secondDay1 from "images/ourPrograms/secondday1.webp"
+import secondDay2 from "images/ourPrograms/secondday2.webp"
+import secondDay3 from "images/ourPrograms/secondday3.webp"
+import thirdDay1 from "images/ourPrograms/thirstday1.webp"
+import thirdDay2 from "images/ourPrograms/thirstday2.webp"
+import thirdDay3 from "images/ourPrograms/thirstday3.webp"
 
 const text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi qui non aperiam amet praesentium ratione accusantium, reprehenderit temporibus iusto suscipit neque expedita vel maiores officiis voluptas repellat? Molestias, sint quod!"
 
-const OurProgramData = [
+export const tab1 = [
     {
         id: 1,
         imag: firstDay1,
@@ -40,7 +40,8 @@ const OurProgramData = [
         title: "Graphic designer",
         name: "salma",
         description: text
-    },
+    }]
+export const tab2 = [
     {
         id: 4,
         imag: secondDay1,
@@ -70,7 +71,8 @@ const OurProgramData = [
         title: "full-stack developer",
         name: "heba",
         description: text
-    },
+    }]
+export const tab3 = [
     {
         id: 7,
         imag: thirdDay1,
@@ -102,5 +104,3 @@ const OurProgramData = [
         description: text
     },
 ];
-
-export default OurProgramData;

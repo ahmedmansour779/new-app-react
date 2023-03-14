@@ -25,6 +25,9 @@ export const IconWrapper = styled("div")`
 `
 export const Image = styled("img")`
     label: Image;
-    border-radius: 50%;
+    border-radius: 10%;
     width: 100%;
+    :hover {
+        box-shadow: 1px;
+    }
 `

@@ -52,10 +52,27 @@ export const Span = styled("span")`
     font-weight: bold;
     flex-direction: row;
     justify-content: flex-start;
+    padding: 1rem 0;
+    cursor: pointer;
+    :hover{
+        color: ${theme.primary};
+    }
 `
 export const Line = styled("div")`
     label: Line;
     width: 100%;
     background-color: ${theme.secondry};
     height: 1px;
+`
+export const Countent = styled("div")`
+    label: Countent;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 1rem;
 `

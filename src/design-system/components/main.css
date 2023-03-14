@@ -25,10 +25,28 @@ body {
     background-color: #f2545f;
 }
 
-.container {
+@media (background-color: #f2545f) {
+    ::selection {
+        background-color: #d4d4d4;
+    }
+}
+
+.container-main-project {
     margin: 0 3rem;
 }
 
 a:hover {
     color: #f2545f;
+
+}
+
+
+@media (max-width: 425px) {
+    .H3-in-Header {
+        font-size: 1rem !important;
+    }
+
+    .Title-in-Header {
+        font-size: 2rem !important;
+    }
 }

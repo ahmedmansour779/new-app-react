@@ -4,7 +4,7 @@ import { AboutUsWrapper, DivAbout, DivImageAbout, ImageAbout } from './style'
 
 function AboutUs() {
     return (
-        <div className='container'>
+        <div className='container-main-project'>
             <AboutUsWrapper>
                 <DivAbout>
                     <h1>ABOUT US</h1>

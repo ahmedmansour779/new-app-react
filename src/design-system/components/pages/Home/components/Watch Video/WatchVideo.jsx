@@ -4,7 +4,7 @@ import { DivVideo, VideoSrc, WatchVideoText, WatchVideoWrapper } from "./style";
 export default function WatchVideo() {
     return (
         <>
-            <div className="container">
+            <div className="container-main-project" id="WatchVideo">
                 <WatchVideoWrapper>
                     <WatchVideoText>
                         <h1>WHATCH VIDEO</h1>
@@ -13,7 +13,7 @@ export default function WatchVideo() {
                     </WatchVideoText>
                     <DivVideo>
                         <VideoSrc>
-                            <video width={"100%"} height={"100%"} src={srcVideo} autoPlay={true} controls="controls" />
+                            <video width={"100%"} height={"100%"} src={srcVideo} controls="controls" />
                         </VideoSrc>
                     </DivVideo>
                 </WatchVideoWrapper>

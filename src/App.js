@@ -1,8 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./design-system/components/main.css";
-import OurPrograms from "./design-system/components/ourPrograms/OurPrograms";
-import OurProgramData from "./design-system/components/ourPrograms/OurProgramsData";
 import Oursponsours from "./design-system/components/OurSponsours/Oursponsours";
 import ourSponsorsData from "./design-system/components/OurSponsours/OurSponsoursData";
 import Home from "./design-system/components/pages/Home/Home";
@@ -17,7 +15,7 @@ function App() {
           </Routes>
         </BrowserRouter>
       </>
-      <>
+      {/* <>
         {OurProgramData.map(item => {
           return (
             <OurPrograms
@@ -31,7 +29,7 @@ function App() {
               key={item.id} />
           )
         })}
-      </>
+      </> */}
       <>
         <div style={{ display: "flex", gap: "1rem" }}>
           {ourSponsorsData.map(item => {
