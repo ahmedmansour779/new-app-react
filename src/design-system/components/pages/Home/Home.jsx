@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutUs from './components/About Us/AboutUs'
+import Accordion from './components/Accordion/Accordion'
 import CreativSpeakersComponent from './components/Creative Speakers/CreativSpeakers'
 import Header from './components/Header'
 import NavBar from './components/NavBar'
@@ -19,6 +20,7 @@ function Home() {
             <CreativSpeakersComponent />
             <OurPrograms />
             <Register />
+            <Accordion />
         </>
     )
 }

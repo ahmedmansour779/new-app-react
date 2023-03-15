@@ -25,12 +25,6 @@ body {
     background-color: #f2545f;
 }
 
-@media (background-color: #f2545f) {
-    ::selection {
-        background-color: #d4d4d4;
-    }
-}
-
 .container-main-project {
     margin: 0 3rem;
 }
@@ -40,6 +34,28 @@ a:hover {
 
 }
 
+.to-top {
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    background-color: #f2545f;
+    bottom: 2rem;
+    right: 2rem;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    opacity: 0.5;
+    cursor: pointer;
+    color: white;
+    z-index: 5;
+}
+
+.to-top:hover {
+    opacity: 1;
+}
 
 @media (max-width: 425px) {
     .H3-in-Header {
@@ -104,14 +120,12 @@ a:hover {
         right: 2rem;
     }
 
-    .css-1280p06-RegisterText,
-    .css-1280p06-RegisterText,
     .css-1tn86by-DivVideo,
     .css-ohjg1s-WatchVideoText,
     .css-177asmk-DivAbout,
     .css-bvl4c9-DivImageAbout,
-    .css-1280p06-RegisterText,
-    .css-1pun50c-RegisterForm {
+    .css-aqwe6q-RegisterText,
+    .css-1673es7-RegisterForm {
         width: 100% !important;
     }
 

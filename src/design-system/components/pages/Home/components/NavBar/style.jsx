@@ -6,7 +6,7 @@ export const NavbarWrapper = styled("section")`
     background-color: ${theme.secondry};
     color: ${theme.textBackground};
     padding: 1rem 0;
-    position: fixed;
+    position: sticky;
     width: 100%;
     top: 0;
     z-index: 5;

@@ -4,8 +4,10 @@ import "./design-system/components/main.css";
 import Oursponsours from "./design-system/components/OurSponsours/Oursponsours";
 import ourSponsorsData from "./design-system/components/OurSponsours/OurSponsoursData";
 import Home from "./design-system/components/pages/Home/Home";
+import Scroll from "./design-system/components/scroll to top/Scroll";
 
 function App() {
+
   return (
     <>
       <>
@@ -15,21 +17,6 @@ function App() {
           </Routes>
         </BrowserRouter>
       </>
-      {/* <>
-        {OurProgramData.map(item => {
-          return (
-            <OurPrograms
-              imag={item.imag}
-              alt={item.al}
-              title={item.title}
-              time={item.time}
-              name={item.name}
-              roomNumper={item.roomNumper}
-              description={item.description}
-              key={item.id} />
-          )
-        })}
-      </> */}
       <>
         <div style={{ display: "flex", gap: "1rem" }}>
           {ourSponsorsData.map(item => {
@@ -39,6 +26,8 @@ function App() {
           })}
         </div>
       </>
+      <Scroll />
+
     </>
   );
 }

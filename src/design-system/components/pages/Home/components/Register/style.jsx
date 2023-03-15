@@ -39,7 +39,7 @@ export const Title = styled("h1")`
     color: ${theme.white};
     padding-bottom: 1rem;
 `
-export const TitleColor = styled("Span")`
+export const TitleColor = styled("span")`
     label: TitleColor;
     color: ${theme.primary};
     margin: 0.5rem;
