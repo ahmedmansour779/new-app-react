@@ -5,7 +5,7 @@ export const WatchVideoWrapper = styled("section")`
     label: WatchVideoWrapper;
     padding: 3rem 0;
     display: flex;
-    gap: 2rem;
+    gap: 1%;
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
@@ -16,7 +16,7 @@ export const WatchVideoWrapper = styled("section")`
 `
 export const WatchVideoText = styled("div")`
     label: WatchVideoText;
-    width: 35rem;
+    width: 49%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -28,7 +28,7 @@ export const WatchVideoText = styled("div")`
 `
 export const DivVideo = styled("div")`
     label: DivVideo;
-    width: 35rem;
+    width: 49%;
     height: 100%;
     display: flex;
     float: right;

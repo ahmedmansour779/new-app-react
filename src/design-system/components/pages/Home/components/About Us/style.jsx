@@ -5,7 +5,7 @@ export const AboutUsWrapper = styled("section")`
     label: AboutUsWrapper;
     padding: 3rem 0;
     display: flex;
-    gap: 2rem;
+    gap: 1%;
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
@@ -16,7 +16,7 @@ export const AboutUsWrapper = styled("section")`
 `
 export const DivAbout = styled("div")`
     label: DivAbout;
-    width: 35rem;
+    width: 49%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -28,7 +28,7 @@ export const DivAbout = styled("div")`
 `
 export const DivImageAbout = styled("div")`
     label: DivImageAbout;
-    width: 35rem;
+    width: 49%;
     display: inline-block;
 `
 export const ImageAbout = styled("img")`

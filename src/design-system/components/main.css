@@ -103,4 +103,16 @@ a:hover {
         top: 2rem;
         right: 2rem;
     }
+
+    .css-1280p06-RegisterText,
+    .css-1280p06-RegisterText,
+    .css-1tn86by-DivVideo,
+    .css-ohjg1s-WatchVideoText,
+    .css-177asmk-DivAbout,
+    .css-bvl4c9-DivImageAbout,
+    .css-1280p06-RegisterText,
+    .css-1pun50c-RegisterForm {
+        width: 100% !important;
+    }
+
 }

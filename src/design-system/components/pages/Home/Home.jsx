@@ -5,6 +5,7 @@ import Header from './components/Header'
 import NavBar from './components/NavBar'
 import OverView from './components/NavbarHome/OverView'
 import OurPrograms from './components/Our programs'
+import Register from './components/Register'
 import WatchVideo from './components/Watch Video'
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
             <WatchVideo />
             <CreativSpeakersComponent />
             <OurPrograms />
+            <Register />
         </>
     )
 }
