@@ -7,6 +7,7 @@ import NavBar from './components/NavBar'
 import OverView from './components/NavbarHome/OverView'
 import OurPrograms from './components/Our programs'
 import Register from './components/Register'
+import Venue from './components/venue/Venue'
 import WatchVideo from './components/Watch Video'
 
 function Home() {
@@ -21,6 +22,7 @@ function Home() {
             <OurPrograms />
             <Register />
             <AccordionComponent />
+            <Venue />
         </>
     )
 }

@@ -3,14 +3,12 @@ import { data } from './data'
 import { AccordionWrapper, Content, H2, Item, P, Title, Wrapper } from './style'
 
 export default function Accordion() {
-    const [active, setActive] = useState(null)
+    const [active, setActive] = useState(1)
 
     const toggle = (i) => {
         if (active === i) {
             return setActive(null)
-        } else {
-            return setActive(i)
-        }
+        } setActive(i)
     }
 
     return (
