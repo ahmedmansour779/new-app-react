@@ -38,11 +38,11 @@ export const Content = styled("div")`
     label: Content;
     color: ${theme.gray};
     padding: 0.5rem 0.5rem;
-    transition: 0.5s all cubic-bezier(0, 1, 0, 1) !important;
+    transition: 0.5s all !important;
     display: none;
     &.show {
         display: block;
-        transition: 0.5s all cubic-bezier(1, 0, 1, 0) !important;
+        transition: 0.5s all !important;
     }
 `
 export const P = styled("p")`

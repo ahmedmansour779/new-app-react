@@ -1,25 +1,24 @@
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 export default function Scroll() {
     const [visible, setVisible] = useState(false)
-    const toggleVisible = () => {
-        const scrolled = document.documentElement.scrollTop;
-        if (scrolled > 50) {
-            setVisible(true)
-        }
-        else if (scrolled <= 50) {
-            setVisible(false)
-        }
-    };
     const scrollToTop = () => {
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
         });
     };
-    window.addEventListener('scroll', toggleVisible);
+    useEffect(() => {
+        const toggleVisible = () => {
+            if (window.scrollY > 50) {
+                return setVisible(true)
+            }
+            return setVisible(false)
+        };
+        window.addEventListener('scroll', toggleVisible);
+    }, [])
 
     return (
         <>
