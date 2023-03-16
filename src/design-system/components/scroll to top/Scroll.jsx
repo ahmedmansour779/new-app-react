@@ -6,10 +6,10 @@ export default function Scroll() {
     const [visible, setVisible] = useState(false)
     const toggleVisible = () => {
         const scrolled = document.documentElement.scrollTop;
-        if (scrolled > 5) {
+        if (scrolled > 50) {
             setVisible(true)
         }
-        else if (scrolled <= 5) {
+        else if (scrolled <= 50) {
             setVisible(false)
         }
     };

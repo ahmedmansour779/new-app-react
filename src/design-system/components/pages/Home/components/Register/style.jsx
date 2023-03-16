@@ -81,6 +81,7 @@ export const InputRegister = styled("input")`
     padding: 0.3rem;
     border: 1px solid ${theme.white};
     background: none;
+    color: ${theme.white};
     &:focus {
         color: ${theme.white} !important;
         ::placeholder {

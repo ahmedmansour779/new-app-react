@@ -1,7 +1,8 @@
 import React from 'react'
+import Accordion from './Accordion/Accordion'
 import { AccordionHedear, AccordionWrapper, AccordionWrapperInside, Description, Question, Title } from './style'
 
-export default function Accordion() {
+export default function AccordionComponent() {
     return (
         <AccordionWrapper>
             <div className='container-main-project'>
@@ -12,8 +13,8 @@ export default function Accordion() {
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur facilis ut eius beatae sunt illo architecto,
                         </Description>
                     </AccordionHedear>
-                    <div>test</div>
                 </AccordionWrapperInside>
+                <Accordion />
             </div>
         </AccordionWrapper>
     )
