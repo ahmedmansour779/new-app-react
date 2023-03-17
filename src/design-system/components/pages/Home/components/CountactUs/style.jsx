@@ -65,7 +65,7 @@ export const CountactUsForm = styled("div")`
     align-items: flex-start;
     padding: 1rem 0 2rem 1rem;
 `
-export const InputCountactUs = styled("Input")`
+export const InputCountactUs = styled("input")`
     label: InputCountactUs;
     width: 100%;
     border: 1px solid ${theme.gray};

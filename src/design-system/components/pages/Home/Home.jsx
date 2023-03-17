@@ -3,6 +3,7 @@ import AboutUs from './components/About Us/AboutUs'
 import AccordionComponent from './components/AccordionComponent/AccordionComponent'
 import CountactUs from './components/CountactUs/CountactUs'
 import CreativSpeakersComponent from './components/Creative Speakers/CreativSpeakers'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import NavBar from './components/NavBar'
 import OverView from './components/NavbarHome/OverView'
@@ -27,6 +28,7 @@ function Home() {
             <Venue />
             <OurSponsorsHome />
             <CountactUs />
+            <Footer />
         </>
     )
 }

@@ -6,7 +6,7 @@ import { UpOverviewWrapper } from '../../../../Overview/Styles'
 function OverView() {
     return (
         <>
-            <UpOverviewWrapper>
+            <UpOverviewWrapper id='overView'>
                 {overviewData.map(item => {
                     return (
                         <Overview
