@@ -29,14 +29,14 @@ const speakerData = [
     {
         id: 4,
         imag: imag4,
-        name: "salma",
+        name: "heba",
         jop: "doctor",
         alt: "person",
     },
     {
         id: 5,
         imag: imag5,
-        name: "sara",
+        name: "fatma",
         jop: "Teacher",
         alt: "person",
     }

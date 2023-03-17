@@ -125,7 +125,9 @@ a:hover {
     .css-177asmk-DivAbout,
     .css-bvl4c9-DivImageAbout,
     .css-aqwe6q-RegisterText,
-    .css-1673es7-RegisterForm {
+    .css-1673es7-RegisterForm,
+    .CountactUsForm,
+    .CountactUsText {
         width: 100% !important;
     }
 

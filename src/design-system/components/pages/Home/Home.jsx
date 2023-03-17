@@ -1,6 +1,7 @@
 import React from 'react'
 import AboutUs from './components/About Us/AboutUs'
 import AccordionComponent from './components/AccordionComponent/AccordionComponent'
+import CountactUs from './components/CountactUs/CountactUs'
 import CreativSpeakersComponent from './components/Creative Speakers/CreativSpeakers'
 import Header from './components/Header'
 import NavBar from './components/NavBar'
@@ -25,6 +26,7 @@ function Home() {
             <AccordionComponent />
             <Venue />
             <OurSponsorsHome />
+            <CountactUs />
         </>
     )
 }
