@@ -134,3 +134,15 @@ a:hover {
     }
 
 }
+
+@media only screen and (max-width: 768px) {
+    .up-image {
+        width: 49% !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .up-image {
+        width: 100% !important;
+    }
+}

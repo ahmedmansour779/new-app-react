@@ -6,6 +6,7 @@ import Header from './components/Header'
 import NavBar from './components/NavBar'
 import OverView from './components/NavbarHome/OverView'
 import OurPrograms from './components/Our programs'
+import OurSponsorsHome from './components/Our Sponsors/OurSponsorsHome'
 import Register from './components/Register'
 import Venue from './components/venue/Venue'
 import WatchVideo from './components/Watch Video'
@@ -23,6 +24,7 @@ function Home() {
             <Register />
             <AccordionComponent />
             <Venue />
+            <OurSponsorsHome />
         </>
     )
 }
