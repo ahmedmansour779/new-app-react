@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
 
 /* font-family: 'Golos Text', sans-serif; */
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     padding: 0;
     border: 0;
@@ -19,6 +23,20 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Golos Text', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 1rem;
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #f2545f;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 ::selection {
