@@ -28,7 +28,7 @@ export const tab1 = [
         time: "10:00 AM",
         roomNumper: "502",
         title: "syper secorety",
-        name: "sara",
+        name: "Woman 3",
         description: text
     },
     {
@@ -38,7 +38,7 @@ export const tab1 = [
         time: "11:00 AM",
         roomNumper: "503",
         title: "Graphic designer",
-        name: "salma",
+        name: "Woman 4",
         description: text
     }]
 export const tab2 = [
@@ -49,7 +49,7 @@ export const tab2 = [
         time: "12:00 BM",
         roomNumper: "504",
         title: "front-end developer",
-        name: "reem",
+        name: "Woman 5",
         description: text
     },
     {
@@ -69,7 +69,7 @@ export const tab2 = [
         time: "02:00 BM",
         roomNumper: "506",
         title: "full-stack developer",
-        name: "heba",
+        name: "Woman 6",
         description: text
     }]
 export const tab3 = [

@@ -159,6 +159,10 @@ a:hover {
     .up-image {
         width: 49% !important;
     }
+
+    .css-m7vfo2-UpOverviewWrapper {
+        flex-direction: column !important
+    }
 }
 
 @media only screen and (max-width: 320px) {
