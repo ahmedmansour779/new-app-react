@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import imge from "images/Home/contact-bg.jpg";
+import imge from "../../../../../shared/assats/Home/contact-bg.jpg";
 import theme from "../../../../config";
 
 export const WrabberCountactUs = styled("section")`

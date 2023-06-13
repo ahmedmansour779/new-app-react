@@ -23,6 +23,11 @@ export const NavbarContainer = styled("section")`
 export const NavbarTitle = styled("span")`
     label: NavbarTitle;
     font-size: 1.5rem;
+    text-decoration: none !important;
+    a {
+        text-decoration: none !important;
+        color: ${theme.white}
+    }
 `
 export const Event = styled("span")`
     label: Event;

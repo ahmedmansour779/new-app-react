@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import background from "images/Home/Register.jpg";
+import background from "../../../../../shared/assats/Home/Register.jpg";
 import theme from "../../../../config";
 
 export const RegisterHereWrabber = styled("section")`

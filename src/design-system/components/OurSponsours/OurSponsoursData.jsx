@@ -1,7 +1,7 @@
-import sponsor1 from "images/OurSponsours/imag1.webp"
-import sponsor2 from "images/OurSponsours/imag2.webp"
-import sponsor3 from "images/OurSponsours/imag3.webp"
-import sponsor4 from "images/OurSponsours/imag4.webp"
+import sponsor1 from "../../shared/assats/OurSponsours/imag1.webp"
+import sponsor2 from "../../shared/assats/OurSponsours/imag2.webp"
+import sponsor3 from "../../shared/assats/OurSponsours/imag3.webp"
+import sponsor4 from "../../shared/assats/OurSponsours/imag4.webp"
 
 const ourSponsorsData = [
     {

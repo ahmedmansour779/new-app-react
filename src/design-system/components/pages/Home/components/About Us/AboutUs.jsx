@@ -1,5 +1,5 @@
-import image from "images/Home/aboutUs.webp"
 import React from 'react'
+import image from "../../../../../shared/assats/Home/aboutUs.webp"
 import { AboutUsWrapper, DivAbout, DivImageAbout, ImageAbout } from './style'
 
 function AboutUs() {

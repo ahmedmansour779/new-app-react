@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import imge from "images/Home/venue-bg.jpg";
+import imge from "../../../../../shared/assats/Home/venue-bg.jpg";
 import theme from "../../../../config";
 
 export const WrabberVenue = styled("section")`

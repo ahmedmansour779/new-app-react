@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import backGround from "images/Home/background.webp";
+import backGround from "../../../../../shared/assats/Home/background.webp";
 import theme from "../../../../config";
 const height = window.innerHeight;
 

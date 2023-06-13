@@ -1,6 +1,7 @@
 import { faBars, faClose } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useRef } from 'react';
+import { Link } from 'react-router-dom';
 import NavItems from "./NavItems";
 import { Button, Event, LinkWrapper, NavbarContainer, NavbarTitle, NavbarWrapper } from './style';
 
@@ -16,7 +17,9 @@ function NavBar() {
             <div className='container-main-project'>
                 <NavbarContainer>
                     <NavbarTitle>
-                        New <Event>Event</Event>
+                        <Link to={"/"}>
+                            New <Event>Event</Event>
+                        </Link>
                     </NavbarTitle>
                     <LinkWrapper className='navbar-content' ref={navRef}>
                         <NavItems />
