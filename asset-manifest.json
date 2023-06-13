@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/new-app-react/static/css/main.ae878bc4.css",
+    "main.js": "/new-app-react/static/js/main.afb3dd9c.js",
+    "static/js/496.20c6b917.chunk.js": "/new-app-react/static/js/496.20c6b917.chunk.js",
+    "static/media/Video.mp4": "/new-app-react/static/media/Video.9d94a141172a2619adcc.mp4",
+    "static/media/speakers-imag1.webp": "/new-app-react/static/media/speakers-imag1.d19fc98cb12fdee69895.webp",
+    "static/media/background.webp": "/new-app-react/static/media/background.e488aa184c27676df9f7.webp",
+    "static/media/aboutUs.webp": "/new-app-react/static/media/aboutUs.bb9df9ee1da68812cdad.webp",
+    "static/media/firstday2.webp": "/new-app-react/static/media/firstday2.21bab674742ce28813db.webp",
+    "static/media/thirstday1.webp": "/new-app-react/static/media/thirstday1.7e066050b5e325375a81.webp",
+    "static/media/secondday1.webp": "/new-app-react/static/media/secondday1.56293206578356db0887.webp",
+    "static/media/speakers-imag2.webp": "/new-app-react/static/media/speakers-imag2.3d27112f8a21925c9dc4.webp",
+    "static/media/firstday3.webp": "/new-app-react/static/media/firstday3.48c554621cd94c4d34ee.webp",
+    "static/media/firstday1.webp": "/new-app-react/static/media/firstday1.533ffb348e64c31ae9dd.webp",
+    "static/media/secondday2.webp": "/new-app-react/static/media/secondday2.09c765b60cba5e209bf5.webp",
+    "static/media/speakers-imag4.webp": "/new-app-react/static/media/speakers-imag4.4ce8be3ea708daf8660f.webp",
+    "static/media/Register.jpg": "/new-app-react/static/media/Register.75b9aa61396797ed36e0.jpg",
+    "static/media/contact-bg.jpg": "/new-app-react/static/media/contact-bg.2d2570ec5a57832ba97f.jpg",
+    "static/media/imag3.webp": "/new-app-react/static/media/imag3.bfefed5b2670daff6667.webp",
+    "static/media/imag1.webp": "/new-app-react/static/media/imag1.3be2095947a445e55f5b.webp",
+    "static/media/imag4.webp": "/new-app-react/static/media/imag4.1aba34efd3447936de8b.webp",
+    "static/media/thirstday2.webp": "/new-app-react/static/media/thirstday2.72dc0aa7d34710b08c80.webp",
+    "static/media/speakers-imag5.webp": "/new-app-react/static/media/speakers-imag5.7c00bcb0284f11bb294e.webp",
+    "static/media/speakers-imag3.webp": "/new-app-react/static/media/speakers-imag3.8e216a5465f73787aa31.webp",
+    "static/media/secondday3.webp": "/new-app-react/static/media/secondday3.002c6164f581ca479b5d.webp",
+    "static/media/thirstday3.webp": "/new-app-react/static/media/thirstday3.0a1a9ab3eaad33c9900a.webp",
+    "static/media/imag2.webp": "/new-app-react/static/media/imag2.c3844dc21b77aeb6e726.webp",
+    "static/media/venue-bg.jpg": "/new-app-react/static/media/venue-bg.ec15499101b71fbbc8e7.jpg",
+    "index.html": "/new-app-react/index.html",
+    "main.ae878bc4.css.map": "/new-app-react/static/css/main.ae878bc4.css.map",
+    "main.afb3dd9c.js.map": "/new-app-react/static/js/main.afb3dd9c.js.map",
+    "496.20c6b917.chunk.js.map": "/new-app-react/static/js/496.20c6b917.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae878bc4.css",
+    "static/js/main.afb3dd9c.js"
+  ]
+}
